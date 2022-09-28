@@ -7,7 +7,7 @@ COPY requirements.txt .
 
 RUN pip install -r requirements.txt
 
-COPY exercise-04 .
+COPY . .
 
 EXPOSE 5000
 
